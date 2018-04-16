@@ -17,6 +17,8 @@ This model takes a wine's description and variety (Pinot Noir, Chardonnay, etc.)
 
 ## Training the model locally
 
-Make sure you have TensorFlow, Pandas, Scikit Learn, and Numpy installed.
+Make sure you have TensorFlow, Pandas, Scikit Learn, and Jupyter installed.
 
-I've included the model code as a Jupyter notebook (`keras-wide-deep.ipynb`). To run, first make sure you have [Jupyter]() installed. From the root directory run `jupyter notebook`. Then navigate to `localhost:8888` and click on `keras-wide-deep.ipynb`.
+First, download the wine data from [Kaggle](https://www.kaggle.com/zynicide/wine-reviews/data). A CSV of the data is available [here](https://www.kaggle.com/zynicide/wine-reviews/downloads/winemag-data_first150k.csv/4) - copy the data to this directory.
+
+I've included the model code as a Jupyter notebook (`keras-wide-deep.ipynb`). From the root directory run `jupyter notebook` to start your notebook. Then navigate to `localhost:8888` and click on `keras-wide-deep.ipynb`.
