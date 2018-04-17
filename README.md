@@ -3,7 +3,7 @@
 Building a wide & deep model with the Keras Functional API
 =======================
 
-This model takes a wine's description and variety (Pinot Noir, Chardonnay, etc.) as input and predicts the price of the wine. It's built with [Keras]() using the [Functional Model API](). Here's an example input and prediction:
+This model takes a wine's description and variety (Pinot Noir, Chardonnay, etc.) as input and predicts the price of the wine. It's built with [tf.keras](https://www.tensorflow.org/api_docs/python/tf/keras) using the [Functional Model API](https://www.tensorflow.org/api_docs/python/tf/keras/Model). Here's an example input and prediction:
 
 #### Inputs
 
