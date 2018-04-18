@@ -15,10 +15,12 @@ This model takes a wine's description and variety (Pinot Noir, Chardonnay, etc.)
 
 * Price - $235
 
-## Training the model locally
+## Training the model
 
-Make sure you have TensorFlow, Pandas, Scikit Learn, and Jupyter installed.
+You can run the model [live in Colab with zero setup here](https://colab.research.google.com/github/sararob/keras-wine-model/blob/master/keras-wide-deep.ipynb).
 
-First, download the wine data from [Kaggle](https://www.kaggle.com/zynicide/wine-reviews/data). A CSV of the data is available [here](https://www.kaggle.com/zynicide/wine-reviews/downloads/winemag-data_first150k.csv/4) - copy the data to this directory.
+To run it locally, make sure you have TensorFlow, Pandas, and Jupyter installed.
 
 I've included the model code as a Jupyter notebook (`keras-wide-deep.ipynb`). From the root directory run `jupyter notebook` to start your notebook. Then navigate to `localhost:8888` and click on `keras-wide-deep.ipynb`.
+
+The data used for training this model is from [Kaggle](https://www.kaggle.com/zynicide/wine-reviews/data). A CSV of the data is available [here](https://www.kaggle.com/zynicide/wine-reviews/downloads/winemag-data_first150k.csv/4).
